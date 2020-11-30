@@ -1,0 +1,3 @@
+MODULE Composite_adder_substractor_tb
+SUBMODULE Composite
+INSTANCE UUT

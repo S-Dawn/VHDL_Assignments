@@ -1,0 +1,30 @@
+ command line:
+   ./Composite_adder_substractor_tb_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1066
+
+Fri Feb 21 14:44:55 2014
+
+Total Line Count = 831
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 36.4175 Meg. 
+
+ Total signals 40
+ Total nets 22
+ Total signal drivers 15
+ Total blocks 12
+ Total primitive blocks 4
+ Total processes 13
+ntrace select -o on -n /Composite_adder_substractor_tb/m 
+ntrace select -o on -n /Composite_adder_substractor_tb/n 
+ntrace select -o on -n /Composite_adder_substractor_tb/o 
+ntrace select -o on -n /Composite_adder_substractor_tb/c 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+run 1000 ns 
+INFO:Simulator:30 - Simulator is stopped.
