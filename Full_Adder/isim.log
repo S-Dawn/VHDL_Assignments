@@ -1,0 +1,32 @@
+ command line:
+   ./Full_Adder_tb_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1134
+
+Fri Feb 14 15:12:00 2014
+
+Total Line Count = 789
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 35.3567 Meg. 
+
+ Total signals 32
+ Total nets 18
+ Total signal drivers 11
+ Total blocks 11
+ Total primitive blocks 4
+ Total processes 9
+ntrace select -o on -n /Full_Adder_tb/a 
+ntrace select -o on -n /Full_Adder_tb/b 
+ntrace select -o on -n /Full_Adder_tb/s 
+ntrace select -o on -n /Full_Adder_tb/cin 
+ntrace select -o on -n /Full_Adder_tb/cout 
+WARNING:Simulator:142 - Cannot find the Signal or Var cout.
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+run 1000 ns 
+INFO:Simulator:30 - Simulator is stopped.
